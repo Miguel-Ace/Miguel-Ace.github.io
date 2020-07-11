@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 25px;
+    font-family: arial;
+    background-color: beige;
+}
+/*Encabezado*/
+header{
+    background-color: rgb(241, 216, 131);
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 0px 30px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(23, 33, 65);
+    border-bottom-width: 8px;
+}
+#encabezado{
+    width: 80%;
+    height: 30px;
+    margin: auto;
+}
+/*Logotipo*/
+#logotipo{
+    width: 30%;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin-top: 27px;
+    font-size: 40px;
+}
+/*Barra de navegación*/
+#barra-navegacion{
+    width: 60%;
+    height: 30px;
+    float: right;
+    margin-top: 33px;
+}
+#barra-navegacion ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+#barra-navegacion ul li a{
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: black;
+    font-size: 1.4em;
+    border-radius: 7px 7px 0px 0px;
+}
+#barra-navegacion ul li a:hover{
+    background-color: rgb(23, 33, 65);
+    color: white;
+}
