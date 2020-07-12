@@ -5,11 +5,10 @@
 body{
     font-size: 25px;
     font-family: arial;
-    background-color: beige;
+    background-color: #A9A9A9;
 }
 /*Encabezado*/
 header{
-    background-color: rgb(241, 216, 131);
     width: 100%;
     height: 100px;
     box-shadow: 0px 0px 30px;
@@ -38,6 +37,9 @@ header{
     float: right;
     margin-top: 33px;
 }
+#barra-navegacion ul{
+    margin-left: 20%;
+}
 #barra-navegacion ul li{
     list-style: none;
     display: inline-block;
@@ -54,4 +56,33 @@ header{
 #barra-navegacion ul li a:hover{
     background-color: rgb(23, 33, 65);
     color: white;
+}
+/*Foto y título de presentación*/
+#seccion-principal #sec-1{
+    width: 100%;
+}
+#seccion-principal #sec-1 article{
+    margin: 30px 30%;
+}
+#seccion-principal #sec-1 article h1{
+    margin-bottom: 15px;
+    background-color: #87CEFA;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 30px;
+    width: 550px;
+    border: 1px solid white;
+    font-family: calisto MT;
+}
+#seccion-principal #sec-1 article img{
+    width: 550px;
+    box-shadow: 0px 0px 30px;
+}
+/*Información de mi credo*/
+#sec-2, #sec-3{
+    border: 2px solid;
+    height: 200px;
+    width: 50%;
+    display: inline-block;
 }
