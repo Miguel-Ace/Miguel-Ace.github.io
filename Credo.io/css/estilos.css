@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    list-style: none;
 }
 body{
     font-size: 25px;
@@ -29,33 +30,56 @@ header{
     float: left;
     margin-top: 27px;
     font-size: 40px;
+    color: white;
+    box-shadow: 0px 0px 59px;
+    border-radius: 20px;
+    text-align: center;
 }
 /*Barra de navegación*/
 #barra-navegacion{
-    width: 60%;
-    height: 30px;
-    float: right;
-    margin-top: 33px;
+    height: 50px;
 }
 #barra-navegacion ul{
-    margin-left: 20%;
+    float: right;
+    margin-right: -1em;
+    margin-top: 2.2em;
+    width: 430px;
+}
+#barra-navegacion ul ul{
+    position: absolute;
+    top: 50px;
+    opacity: 0;
+    visibility: hidden;
+}
+#barra-navegacion ul ul li{
+    display: list-item;
+    position: relative;
+    border: 1px solid rgb(83, 101, 163);
+    margin-top: 1px;
 }
 #barra-navegacion ul li{
-    list-style: none;
     display: inline-block;
-    margin-top: 10px;
+}
+#barra-navegacion ul li:hover > ul{
+    top: 50px;
+    opacity: 1;
+    visibility: visible;
+    transition: .3s linear;
 }
 #barra-navegacion ul li a{
+    color: bisque;
     text-decoration: none;
-    padding: 10px;
     display: block;
-    color: black;
-    font-size: 1.4em;
-    border-radius: 7px 7px 0px 0px;
+    background:rgb(23, 33, 65);
+    border-radius: 6px;
+    padding: 0px 15px;
+    line-height: 50px;
+    font-size: 33px;
+    font-size: 30px;
+    transition: .4s;
 }
 #barra-navegacion ul li a:hover{
-    background-color: rgb(23, 33, 65);
-    color: white;
+    color: brown;
 }
 /*Foto y título de presentación*/
 #seccion-principal #sec-1{
