@@ -103,10 +103,55 @@ header{
     width: 550px;
     box-shadow: 0px 0px 30px;
 }
-/*Información de mi credo*/
+/*Imagen del credo*/
 #sec-2, #sec-3{
     border: 2px solid;
     height: 200px;
     width: 50%;
     display: inline-block;
+}
+
+/*Información de mi credo*/
+#contenedor{
+    width: 80%;
+    margin: auto;
+    height: auto;
+    box-shadow: 10px 0px 20px 0px;
+}
+#contenedor :hover{
+    background: #2F4F4F;
+    
+}
+#contenedor div{
+    margin-top: 1.2em;
+    padding: 0% 25%;
+}
+#contenedor article{
+    margin-top: 1.5em;
+    width: 100%;
+}
+.titulo{
+    margin-bottom: 15px;
+    background-color: #EDC378;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 30px;
+    width: 550px;
+    border: 1px solid white;
+    font-family: Calibri;
+    box-shadow: 0px 0px 20px;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+}
+#contenedor article div img{
+    width: 100%;
+}
+/*Las imagenes usadas*/
+.imagenes{
+    border: 1px solid;
+    display: inline;
 }
