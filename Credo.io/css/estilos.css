@@ -148,7 +148,18 @@ p{
     width: 100%;
 }
 /*Las imagenes usadas*/
-.imagenes{
-    border: 1px solid;
-    display: inline;
+
+#imagenes{
+    width: 45%;
+    margin-left: 20%;
 }
+#imagenes img{
+float: right;
+}
+img{
+    box-shadow: 0px 0px 20px;
+}
+#imagen_cuatro{
+    float: left;
+}
+/**/
