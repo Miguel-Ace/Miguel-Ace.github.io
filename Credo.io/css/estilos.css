@@ -116,11 +116,8 @@ header{
     width: 80%;
     margin: auto;
     height: auto;
-    box-shadow: 10px 0px 20px 0px;
-}
-#contenedor :hover{
     background: #2F4F4F;
-    
+    box-shadow: 10px 0px 20px 0px;
 }
 #contenedor div{
     margin-top: 1.2em;
