@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orienta&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
     list-style: none;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Orienta', sans-serif;
 }
 body{
-    font-size: 25px;
+    font-size: 24px;
     font-family: arial;
     background-color: #A9A9A9;
 }
@@ -46,7 +46,7 @@ header{
     float: right;
     margin-right: -1em;
     margin-top: 2.2em;
-    width: 430px;
+    width: 444px;
 }
 #barra-navegacion ul ul{
     position: absolute;
@@ -118,15 +118,16 @@ header{
 #contenedor{
     width: 80%;
     margin: auto;
+    margin-bottom:4%;
     height: auto;
-    background: #2F4F4F;
     box-shadow: 0px 0px 10px 1px white;
 }
 #contenedor div h1{
     margin: auto;
 }
 #contenedor section p{
-    font-size: 30px;
+    font-size: 25px;
+    margin: 60px;
 }
 .titulo{
     margin-bottom: 15px;
@@ -153,14 +154,12 @@ p{
     width: 50%;
     margin: auto;
 }
-#contenedor section div:hover{
-    box-shadow: 0px 0px 20px wheat;
-}
 #contenedor section .img{
     margin: 0px;
     width: 100%;
     height: 12.8em;
     display: inline-block;
+
 }
 #contenedor section div #uno{
     width: 100%;
@@ -168,24 +167,32 @@ p{
 }
 
 #contenedor section div #dos{
-    width: 50%;
+    width: 45%;
     height: auto;
     float: left;
+    margin: 2%;
 }
 #contenedor section div #tres{
-    width: 50%;
+    width: 45%;
     height: 100%;
     float: right;
+    margin: 2%;
 }
 #contenedor section #cuatro{
     width: auto;
-    margin-bottom: 20px;
+    margin: 2%;
+    float: right;
+}
+#contenedor section .img-dos{
+    width: auto;
+    height: 320px;
+    display: inline-block;
     float: left;
+    margin: 2%;
 }
 #contenedor section div #cinco{
-    width: 50%;
+    width: 500px;
     height: 320px;
-    float: left;
 }
 #contenedor section div #seis{
     width: 50%;
@@ -207,19 +214,24 @@ p{
 /*Parte uno de las creencias*/
 .creencias{
     width: 100%;
-    background-color: rgb(156, 23, 0);
-    height: 350px;
+    padding: 2%;
+    height: 415px;
+    display: inline-block;
     box-sizing: border-box;
 }
 .creencias:hover{
     background-color: black;
-    transition: .3s linear;
+    transition: .5s linear;
+}
+.creencias:hover > #uno{
+    box-shadow: 0px 0px 50px turquoise;
+    transition: .5s linear;
 }
 .creencias #uno{
     width: 9%;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0px 0px 50px turquoise;
+    
     padding: 5px;
     margin-top: 133px;
     transform: rotate(-90deg);
@@ -227,29 +239,23 @@ p{
     float: left;
     color: white;
 }
-.creencias #uno:hover{
-    text-decoration: underline;
-}
 .creencias #dos{
     width: 89%;
-    margin-top: 1%;
-    background-color: rgb(43, 142, 184);
-    border: 1px solid yellow;
-    height: auto;
+    background-color: rgb(58, 73, 80);
+    border: 1px solid rgb(219, 219, 179);
+    height: 100%;
     float: right;
-    box-shadow: 0px 0px 59px orange;
+    box-shadow: 0px 0px 59px rgb(161, 140, 101);
 }
 .creencias #dos h1{
     text-align: center;
 }
 .creencias #dos:hover > h1{
     text-decoration: underline;
+    color: wheat;
 }
 
 /*Parte tres*/
-#contenedor{
-
-}
 #contenedor section h2{
     text-align: center;
     color: wheat;
@@ -277,10 +283,11 @@ p{
     margin-top: 7%;
     margin-bottom: 2%;
     color: cadetblue;
-
+    background-color: cadetblue;
 }
 #contenedor .cap-cuatro-subtitulo h3{
     text-align: center;
+    color: white;
 }
 #contenedor .listas{
     width: 80%;
@@ -296,10 +303,13 @@ p{
     margin-left: 5%;
 }
 #contenedor .listas nav ul:hover > li{
-    text-decoration: underline brown;
+    text-decoration: underline white;
 }
 
 /*Parte seis*/
+#contenedor .datos-familia{
+    padding: 2%;
+}
 #contenedor section #parrafo{
     width: 60%;
     float: left;
@@ -307,7 +317,7 @@ p{
 #contenedor section #img img{
     width: 40%;
     border-radius: 20px;
-    box-shadow: 0px 0px 30px 5px brown;
+    box-shadow: 0px 0px 30px 5px rgb(160, 95, 95);
 }
 #contenedor .datos-familia:hover{
     background-color: rgb(43, 142, 184);
@@ -322,3 +332,5 @@ p{
     margin: auto;
     box-shadow: 0px 99px 40px 10px wheat;
 }
+
+@media(max-width)
